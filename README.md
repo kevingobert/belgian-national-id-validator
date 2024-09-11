@@ -2,6 +2,14 @@
 
 Utility that allows you to validate the Belgian National Id
 
+## Installation
+
+Install the package via `npm`:
+
+```bash
+npm install --save belgian-national-id-validator
+```
+
 ## Usage
 
 ### ES2016+
