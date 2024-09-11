@@ -1,0 +1,1 @@
+export { getBirthdateFromID } from "./getBirthdateFromID";

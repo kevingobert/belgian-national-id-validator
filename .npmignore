@@ -1,0 +1,10 @@
+src/
+.vscode/
+types/
+.vscode
+.eslintrc.cjs
+.prettierrc
+tsconfig.json
+vite.config.ts
+vitest.config.ts
+.gitignore
