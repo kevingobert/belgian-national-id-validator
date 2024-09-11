@@ -19,8 +19,10 @@ const getCenturyFromYear: GetCenturyFromYear = (year: string): string => {
  */
 const getBirthdateFromID: GetBirthdateFromID = (national_id: string): Date => {
   const datePattern = /(\d{2})(\d{2})(\d{2})/;
+  const match = datePattern.exec(national_id) || [];
 
-  let [, year, month, day] = datePattern.exec(national_id) || [];
+  const [, , month, day] = match;
+  let [, year] = match;
 
   year = getCenturyFromYear(year);
 
